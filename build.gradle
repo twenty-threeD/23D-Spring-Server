@@ -24,6 +24,10 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    jwtVersion = "0.13.0"
+}
+
 dependencies {
 
     // spring security
@@ -55,9 +59,9 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // jwt
-    implementation 'io.jsonwebtoken:jjwt-api:0.13.0'
-    implementation 'io.jsonwebtoken:jjwt-impl:0.13.0'
-    implementation 'io.jsonwebtoken:jjwt-jackson:0.13.0'
+    implementation "io.jsonwebtoken:jjwt-api:${jwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-impl:${jwtVersion}"
+    runtimeOnly "io.jsonwebtoken:jjwt-jackson:${jwtVersion}"
 
     // env
     implementation 'io.github.cdimascio:dotenv-java:3.0.0'
