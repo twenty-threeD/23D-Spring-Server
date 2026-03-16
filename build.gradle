@@ -20,10 +20,6 @@ configurations {
     }
 }
 
-repositories {
-    mavenCentral()
-}
-
 ext {
     jwtVersion = "0.13.0"
 }
