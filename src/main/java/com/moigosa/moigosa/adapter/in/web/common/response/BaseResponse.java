@@ -1,7 +1,7 @@
-package com.moigosa.moigosa.global.data;
+package com.moigosa.moigosa.adapter.in.web.common.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.moigosa.moigosa.global.exception.status_code.StatusCode;
+import com.moigosa.moigosa.adapter.in.web.common.exception.status_code.StatusCode;
 import org.springframework.http.HttpStatus;
 
 import java.util.Map;

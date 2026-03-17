@@ -1,6 +1,6 @@
-package com.moigosa.moigosa.global.jwt;
+package com.moigosa.moigosa.adapter.in.security;
 
-import com.moigosa.moigosa.domain.auth.application.port.out.token.TokenProvider;
+import com.moigosa.moigosa.application.auth.port.out.token.TokenProvider;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

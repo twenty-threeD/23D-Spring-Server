@@ -1,6 +1,6 @@
-package com.moigosa.moigosa.domain.auth.domain.model;
+package com.moigosa.moigosa.domain.auth.model;
 
-import com.moigosa.moigosa.domain.auth.domain.enums.Role;
+import com.moigosa.moigosa.domain.auth.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

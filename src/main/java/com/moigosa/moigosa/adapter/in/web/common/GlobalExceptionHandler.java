@@ -1,17 +1,15 @@
-package com.moigosa.moigosa.global.exception;
+package com.moigosa.moigosa.adapter.in.web.common;
 
-import com.moigosa.moigosa.domain.auth.exception.AuthStatusCode;
-import com.moigosa.moigosa.global.data.BaseResponse;
-import com.moigosa.moigosa.global.data.ErrorResponse;
-import com.moigosa.moigosa.global.exception.exception.ApplicationException;
-import com.moigosa.moigosa.global.exception.status_code.CommonStatusCode;
-import com.moigosa.moigosa.global.exception.status_code.StatusCode;
+import com.moigosa.moigosa.adapter.in.web.auth.exception.AuthStatusCode;
+import com.moigosa.moigosa.adapter.in.web.common.exception.exception.ApplicationException;
+import com.moigosa.moigosa.adapter.in.web.common.exception.status_code.CommonStatusCode;
+import com.moigosa.moigosa.adapter.in.web.common.exception.status_code.StatusCode;
+import com.moigosa.moigosa.adapter.in.web.common.response.BaseResponse;
+import com.moigosa.moigosa.adapter.in.web.common.response.ErrorResponse;
 import jakarta.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.DisabledException;
-import org.springframework.security.authentication.LockedException;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.MissingServletRequestParameterException;

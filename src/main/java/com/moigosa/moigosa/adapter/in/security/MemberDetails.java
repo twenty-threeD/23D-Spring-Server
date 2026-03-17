@@ -1,6 +1,6 @@
-package com.moigosa.moigosa.global.jwt;
+package com.moigosa.moigosa.adapter.in.security;
 
-import com.moigosa.moigosa.domain.auth.domain.model.Member;
+import com.moigosa.moigosa.domain.auth.model.Member;
 import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

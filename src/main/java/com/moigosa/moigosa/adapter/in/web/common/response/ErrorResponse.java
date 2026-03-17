@@ -1,4 +1,4 @@
-package com.moigosa.moigosa.global.data;
+package com.moigosa.moigosa.adapter.in.web.common.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

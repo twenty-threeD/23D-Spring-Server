@@ -1,4 +1,4 @@
-package com.moigosa.moigosa.global.exception.status_code;
+package com.moigosa.moigosa.adapter.in.web.common.exception.status_code;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

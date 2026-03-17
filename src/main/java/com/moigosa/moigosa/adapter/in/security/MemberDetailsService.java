@@ -1,7 +1,7 @@
-package com.moigosa.moigosa.global.jwt;
+package com.moigosa.moigosa.adapter.in.security;
 
-import com.moigosa.moigosa.domain.auth.domain.model.Member;
-import com.moigosa.moigosa.domain.auth.domain.repository.MemberRepository;
+import com.moigosa.moigosa.domain.auth.model.Member;
+import com.moigosa.moigosa.application.auth.port.out.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.jspecify.annotations.NonNull;
 import org.springframework.security.core.userdetails.UserDetails;

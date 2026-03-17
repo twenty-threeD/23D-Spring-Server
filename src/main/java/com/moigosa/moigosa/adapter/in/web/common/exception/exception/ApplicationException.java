@@ -1,6 +1,6 @@
-package com.moigosa.moigosa.global.exception.exception;
+package com.moigosa.moigosa.adapter.in.web.common.exception.exception;
 
-import com.moigosa.moigosa.global.exception.status_code.StatusCode;
+import com.moigosa.moigosa.adapter.in.web.common.exception.status_code.StatusCode;
 import lombok.Getter;
 
 @Getter

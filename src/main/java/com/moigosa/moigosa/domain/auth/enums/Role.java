@@ -1,4 +1,4 @@
-package com.moigosa.moigosa.domain.auth.domain.enums;
+package com.moigosa.moigosa.domain.auth.enums;
 
 public enum Role {
 
